@@ -1,0 +1,298 @@
+[
+	{
+        "id": 1,
+		"type": "featured",
+		"title": "",
+		"subtitle": "",
+		"items": [
+			{
+				"id": 1,
+				"tagline": "Pakaian",
+				"name": "Baju Kemeja",
+				"subheading": "Zalora",
+				"image": "Heading1",
+				"iap": true
+			},
+			{
+				"id": 2,
+				"tagline": "Tas",
+				"name": "Tas Pergi",
+				"subheading": "Gucci",
+				"image": "Heading2",
+				"iap": false
+			},
+			{
+				"id": 3,
+				"tagline": "Sepatu",
+				"name": "Sepatu Kasual",
+				"subheading": "Balenciaga",
+				"image": "Heading3",
+				"iap": true
+			},
+			{
+				"id": 4,
+				"tagline": "Celana",
+				"name": "Jeans",
+				"subheading": "PalmAngels",
+				"image": "Heading4",
+				"iap": false
+			},
+			{
+				"id": 5,
+				"tagline": "Sepatu",
+				"name": "Boots",
+				"subheading": "DrMartins",
+				"image": "Heading5",
+				"iap": true
+			},
+			{
+				"id": 6,
+				"tagline": "Tas",
+				"name": "Tas Kasual",
+				"subheading": "Tory Bruch",
+				"image": "Heading6",
+				"iap": false
+			},
+			{
+				"id": 7,
+				"tagline": "Topi",
+				"name": "Kasual",
+				"subheading": "Red",
+				"image": "Heading7",
+				"iap": true
+			},
+			{
+				"id": 8,
+				"tagline": "Sepatu",
+				"name": "S.A.C.K.",
+				"subheading": "Sack people using our cloud software.",
+				"image": "Heading8",
+				"iap": false
+			},
+			{
+				"id": 9,
+				"tagline": "Tas",
+				"name": "Yodely",
+				"subheading": "You like to yodel. Yodely does too.",
+				"image": "Heading9",
+				"iap": true
+			},
+			{
+				"id": 10,
+				"tagline": "Sepatu",
+				"name": "Tipable",
+				"subheading": "Manage your tips like never before.",
+				"image": "Heading10",
+				"iap": false
+			}
+		]
+	},
+	{
+        "id": 2,
+		"type": "mediumTable",
+		"title": "Pilihan",
+		"subtitle": "These apps are easy on the eyes",
+		"items": [
+			{
+				"id": 11,
+				"tagline": "Celana",
+				"name": "Kasual",
+				"subheading": "You'll never stroke the same way again.",
+				"image": "iOS1",
+				"iap": true
+			},
+			{
+				"id": 12,
+				"tagline": "Tas",
+				"name": "Tas Pergi",
+				"subheading": "Gucci",
+				"image": "iOS2",
+				"iap": false
+			},
+			{
+				"id": 13,
+				"tagline": "Sepatu",
+				"name": "Sepatu Kasual",
+				"subheading": "Introducing the world’s first experienced professor.",
+				"image": "iOS3",
+				"iap": true
+			},
+			{
+				"id": 14,
+				"tagline": "Celana",
+				"name": "Jeans",
+				"subheading": "PalmAngels",
+				"image": "iOS4",
+				"iap": false
+			},
+			{
+				"id": 15,
+				"tagline": "Sepatu",
+				"name": "Boots",
+				"subheading": "Motivate your niche in the squealing ecosystem.",
+				"image": "iOS5",
+				"iap": true
+			},
+			{
+				"id": 16,
+				"tagline": "Tas",
+				"name": "Tas Kasual",
+				"subheading": "Tory Bruch",
+				"image": "iOS6",
+				"iap": false
+			},
+			{
+				"id": 17,
+				"tagline": "Topi",
+				"name": "Kasual",
+				"subheading": "Dare to spell the smart way.",
+				"image": "iOS7",
+				"iap": true
+			},
+			{
+				"id": 18,
+				"tagline": "Sepatu",
+				"name": "S.A.C.K.",
+				"subheading": "Sack people online using our cloud software.",
+				"image": "iOS8",
+				"iap": false
+			},
+			{
+				"id": 19,
+				"tagline": "Tas",
+				"name": "Yodely",
+				"subheading": "You like to yodel. Yodely does too.",
+				"image": "iOS9",
+				"iap": true
+			}
+		]
+	},
+	{
+        "id": 3,
+		"type": "mediumTable",
+		"title": "Favorit",
+		"subtitle": "",
+		"items": [
+			{
+				"id": 21,
+				"tagline": "Pakaian",
+				"name": "Kasual",
+				"subheading": "You'll never stroke the same way again.",
+				"image": "iOS1",
+				"iap": true
+			},
+			{
+				"id": 22,
+				"tagline": "Tas",
+				"name": "Tas Pergi",
+				"subheading": "Gucci",
+				"image": "iOS2",
+				"iap": false
+			},
+			{
+				"id": 23,
+				"tagline": "Sepatu",
+				"name": "Sepatu Kasual",
+				"subheading": "Introducing the world’s first experienced professor.",
+				"image": "iOS3",
+				"iap": true
+			},
+			{
+				"id": 24,
+				"tagline": "Pakaian",
+				"name": "Jeans",
+				"subheading": "PalmAngels",
+				"image": "iOS4",
+				"iap": false
+			},
+			{
+				"id": 25,
+				"tagline": "Sepatu",
+				"name": "Boots",
+				"subheading": "Motivate your niche in the squealing ecosystem.",
+				"image": "iOS5",
+				"iap": true
+			},
+			{
+				"id": 26,
+				"tagline": "Tas",
+				"name": "Tas Kasual",
+				"subheading": "Tory Bruch",
+				"image": "iOS6",
+				"iap": false
+			},
+			{
+				"id": 27,
+				"tagline": "Topi",
+				"name": "Kasual",
+				"subheading": "Dare to spell the smart way.",
+				"image": "iOS7",
+				"iap": true
+			},
+			{
+				"id": 28,
+				"tagline": "Sepatu",
+				"name": "S.A.C.K.",
+				"subheading": "Sack people online using our cloud software.",
+				"image": "iOS8",
+				"iap": false
+			},
+			{
+				"id": 29,
+				"tagline": "Tas",
+				"name": "Yodely",
+				"subheading": "You like to yodel. Yodely does too.",
+				"image": "iOS9",
+				"iap": true
+			}
+		]
+	},
+	{
+        "id": 4,
+		"type": "smallTable",
+		"title": "Pilihan Klasik",
+		"subtitle": "",
+		"items": [
+			{
+				"id": 31,
+				"tagline": "",
+				"name": "Sepatu",
+				"subheading": "",
+				"image": "Category1",
+				"iap": true
+			},
+			{
+				"id": 32,
+				"tagline": "",
+				"name": "Tas",
+				"subheading": "",
+				"image": "Category2",
+				"iap": false
+			},
+			{
+				"id": 33,
+				"tagline": "",
+				"name": "Baju",
+				"subheading": "",
+				"image": "Category3",
+				"iap": true
+			},
+			{
+				"id": 34,
+				"tagline": "",
+				"name": "Celana",
+				"subheading": "",
+				"image": "Category4",
+				"iap": false
+			},
+			{
+				"id": 35,
+				"tagline": "",
+				"name": "Aksesoris",
+				"subheading": "",
+				"image": "Category5",
+				"iap": true
+			}
+		]
+	}
+]
