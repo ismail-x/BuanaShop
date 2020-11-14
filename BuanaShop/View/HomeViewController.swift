@@ -207,11 +207,13 @@ extension HomeViewController: UISearchBarDelegate {
 }
 
 extension HomeViewController: UICollectionViewDelegate {
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let AppDetailController = UIViewController()
+        let layout = UICollectionViewFlowLayout()
+        let AppDetailController = DetailView(collectionViewLayout: layout)
         navigationController?.pushViewController(AppDetailController, animated: true)
-        
+    
     }
-
+    
 }
 

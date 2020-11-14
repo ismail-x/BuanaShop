@@ -7,8 +7,13 @@
 
 import UIKit
 
-class DetailView: UIViewController {
+class DetailView: UICollectionViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        collectionView?.backgroundColor = UIColor.red
+    }
     
     
 }
