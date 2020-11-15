@@ -36,17 +36,34 @@ class HomeViewController: UIViewController {
         reloadData()
         
     }
+    @objc func didTapEditButton(sender: AnyObject){
+
+        }
+
+        @objc func didTapSearchButton(sender: AnyObject){
+
+        }
     
-    //MARK: -  SearchBar
+    //MARK: -  SearchBar & Notif
     
     @objc func handleShowSearchBar() {
         searchBar.becomeFirstResponder()
         search(shouldShow: true)
     }
     
+    @objc func notif(){
+        
+    }
+    
+    
     func configureUI() {
         view.backgroundColor = .white
         
+//        let notifBarButtonItem: UIBarButtonItem
+//        let image = UIImage(systemName: "bell")
+//        notifBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(notif))
+//        navigationItem.leftBarButtonItem = notifBarButtonItem
+//
         searchBar.sizeToFit()
         searchBar.delegate = self
         
@@ -56,12 +73,20 @@ class HomeViewController: UIViewController {
     }
     
     func showSearchBarButton(shouldShow: Bool) {
+        
+        let notifBarButtonItem: UIBarButtonItem
+        let image = UIImage(systemName: "bell")
+        notifBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(notif))
+        navigationItem.rightBarButtonItem = notifBarButtonItem
+        
+        let cariBarButtonItem: UIBarButtonItem
+        let cari = UIImage(systemName: "magnifyingglass")
+        cariBarButtonItem = UIBarButtonItem(image: cari, style: .plain, target: self, action: #selector(handleShowSearchBar))
+        
         if shouldShow {
-            navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search,
-                                                                target: self,
-                                                                action: #selector(handleShowSearchBar))
+            navigationItem.rightBarButtonItems = [notifBarButtonItem, cariBarButtonItem]
         } else {
-            navigationItem.rightBarButtonItem = nil
+            navigationItem.rightBarButtonItems = nil
         }
     }
     
@@ -215,7 +240,7 @@ extension HomeViewController: UICollectionViewDelegate {
         let layout = UICollectionViewFlowLayout()
         let AppDetailController = DetailView(collectionViewLayout: layout)
         navigationController?.pushViewController(AppDetailController, animated: true)
-    
+        
     }
     
 }
