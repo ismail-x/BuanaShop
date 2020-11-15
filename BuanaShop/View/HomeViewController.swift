@@ -36,25 +36,13 @@ class HomeViewController: UIViewController {
         reloadData()
         
     }
-    @objc func didTapEditButton(sender: AnyObject){
-
-        }
-
-        @objc func didTapSearchButton(sender: AnyObject){
-
-        }
+    
     
     //MARK: -  SearchBar & Notif
    
-    
     func configureUI() {
         view.backgroundColor = .white
         
-//        let notifBarButtonItem: UIBarButtonItem
-//        let image = UIImage(systemName: "bell")
-//        notifBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(notif))
-//        navigationItem.leftBarButtonItem = notifBarButtonItem
-//
         searchBar.sizeToFit()
         searchBar.delegate = self
         
