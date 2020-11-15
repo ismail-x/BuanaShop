@@ -37,6 +37,8 @@ class HomeViewController: UIViewController {
         
     }
     
+    //MARK: -  SearchBar
+    
     @objc func handleShowSearchBar() {
         searchBar.becomeFirstResponder()
         search(shouldShow: true)
@@ -68,6 +70,7 @@ class HomeViewController: UIViewController {
         searchBar.showsCancelButton = shouldShow
         navigationItem.titleView = shouldShow ? searchBar : nil
     }
+    //MARK: - CollectionViewCell
     
     func configure<T: SelfConfiguringCell>(_ cellType: T.Type, with app: App, for indexPath: IndexPath) -> T {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier, for: indexPath) as? T else {
@@ -115,6 +118,8 @@ class HomeViewController: UIViewController {
         
         dataSource?.apply(snapshot)
     }
+    
+    //MARK: - View
     
     func createCompositionalLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout { sectionIndex, layoutEnvironment in
@@ -188,12 +193,10 @@ class HomeViewController: UIViewController {
         let layoutSectionHeader = NSCollectionLayoutBoundarySupplementaryItem(layoutSize: layoutSectionHeaderSize, elementKind: UICollectionView.elementKindSectionHeader, alignment: .top)
         return layoutSectionHeader
     }
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        print("blbla")
-//    }
 }
 
 
+//MARK: - delegate
 
 extension HomeViewController: UISearchBarDelegate {
     

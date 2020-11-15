@@ -7,9 +7,9 @@
 
 import UIKit
 
-class FeaturedCell: UICollectionViewCell, SelfConfiguringCell {
+class FeaturedCell: UICollectionViewCell, SelfConfiguringCell, UICollectionViewDelegate {
     static let reuseIdentifier: String = "FeaturedCell"
-
+        
     let tagline = UILabel()
     let name = UILabel()
     let subtitle = UILabel()
@@ -60,6 +60,7 @@ class FeaturedCell: UICollectionViewCell, SelfConfiguringCell {
         subtitle.text = app.subheading
         imageView.image = UIImage(named: app.image)
     }
+    
 
     required init?(coder: NSCoder) {
         fatalError("Not happening")
