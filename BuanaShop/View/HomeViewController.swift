@@ -45,16 +45,7 @@ class HomeViewController: UIViewController {
         }
     
     //MARK: -  SearchBar & Notif
-    
-    @objc func handleShowSearchBar() {
-        searchBar.becomeFirstResponder()
-        search(shouldShow: true)
-    }
-    
-    @objc func notif(){
-        
-    }
-    
+   
     
     func configureUI() {
         view.backgroundColor = .white
@@ -95,6 +86,17 @@ class HomeViewController: UIViewController {
         searchBar.showsCancelButton = shouldShow
         navigationItem.titleView = shouldShow ? searchBar : nil
     }
+    
+    
+    @objc func handleShowSearchBar() {
+        searchBar.becomeFirstResponder()
+        search(shouldShow: true)
+    }
+    
+    @objc func notif(){
+        
+    }
+    
     //MARK: - CollectionViewCell
     
     func configure<T: SelfConfiguringCell>(_ cellType: T.Type, with app: App, for indexPath: IndexPath) -> T {
